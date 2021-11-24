@@ -1,6 +1,6 @@
 ﻿<?php
 $remitente = $_POST['email'];
-$destinatario = 'kilynet@gmail.com'; // en esta línea va el mail del destinatario.
+$destinatario = '@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = 'Consulta'; // acá se puede modificar el asunto del mail
 if (!$_POST){
 ?>
